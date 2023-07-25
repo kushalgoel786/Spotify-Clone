@@ -119,7 +119,27 @@
           </div>
         </div>
       </div>
-      <div id="music-player">music player</div>
+      <div id="music-player">
+        <div id="player-song"></div>
+        <div id="player-controls">
+          <div id="player-control-icons">
+            <img src="./assets/player_icon1.png" class="player-control-icon" />
+            <img src="./assets/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./assets/player_icon3.png"
+              class="player-control-icon"
+              id="player-control-icon-primary" />
+            <img src="./assets/player_icon4.png" class="player-control-icon" />
+            <img src="./assets/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div id="player-bar">
+            <span class="player-time">01:33</span>
+            <input type="range" min="0" max="100" id="progress-bar" />
+            <span class="player-time">03:52</span>
+          </div>
+        </div>
+        <div id="player-settings"></div>
+      </div>
     </div>
   </body>
 </html>
