@@ -392,10 +392,12 @@ body {
 
 #player-song #song-img {
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 #song-details {
   margin: 0 1rem;
+  cursor: pointer;
 }
 
 #song-details #song-name{
