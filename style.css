@@ -9,6 +9,7 @@ body {
 #main {
   display: flex;
   height: 100vh;
+  padding: 0.5rem;
 }
 
 #sidebar {
@@ -64,4 +65,55 @@ body {
 
 .nav-option i {
   font-size: 1.25rem;
+}
+
+#library {
+  background-color: #121212;
+  border-radius: 1rem;
+  height: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+
+#library-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2rem;
+  padding: 0.5rem 0.75rem;
+}
+
+#library-option {
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+}
+
+#library-option:hover {
+  opacity: 1;
+}
+
+#library-option img {
+  height: 1.25rem;
+}
+
+#library-option a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+#library-icons {
+  display: flex;
+}
+
+#library-icons i {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  opacity: 0.7;
+}
+
+#library-icons i:hover {
+  opacity: 1;
 }
