@@ -147,3 +147,67 @@ body {
   height: 2rem;
   width: fit-content;
 }
+
+.card-badge:hover {
+  transform: scale(1.05);
+}
+
+.main-nav-badge {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: fit-content;
+}
+
+.main-nav-badge-dark {
+  background-color: black;
+  color: white;
+}
+
+#main-nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #121212;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#main-nav-arrows {
+  margin-left: 1rem;
+}
+
+#main-nav-arrows img {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-left: 1rem;
+  opacity: 0.7;
+}
+
+#main-nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-nav-options i {
+  margin-top: 5px;
+}
+.main-nav-option {
+  margin-right: 1.25rem;
+}
+
+.main-nav-option i {
+  margin-right: 5px;
+}
+
+@media (max-width: 1000px) {
+  #main-nav .hide {
+    display: none;
+  }
+}
