@@ -286,16 +286,8 @@ body {
   align-items: center;
 }
 
-#player-song {
-  width: 25%;
-}
-
 #player-controls {
-  width: 50%;
-}
-
-#player-settings {
-  width: 25%;
+  width: 40%;
 }
 
 .player-control-icon {
@@ -353,4 +345,76 @@ body {
 .player-time {
   font-size: 0.75rem;
   opacity: 0.7;
+}
+
+#player-settings {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 0.5rem;
+}
+
+.player-settings-icon {
+  height: 1.25rem;
+  margin: 0 0.5rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.player-settings-icon:hover {
+  opacity: 1;
+}
+
+#volume-bar {
+  width: 6rem;
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#volume-bar::-webkit-slider-runnable-track {
+  background-color: #dddddd;
+  border-radius: 100px;
+  height: 0.2rem;
+}
+
+#volume-bar::-webkit-slider-thumb {
+  appearance: none;
+}
+
+#player-song {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+#player-song #song-img {
+  border-radius: 0.5rem;
+}
+
+#song-details {
+  margin: 0 1rem;
+}
+
+#song-details #song-name{
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+#song-details #song-singer {
+  margin: 0;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.song-details-icon {
+  height: 1.25rem;
+  margin: 0 0.5rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.song-details-icon:hover {
+  opacity: 1;
 }
