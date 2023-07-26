@@ -306,11 +306,18 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0.5rem 0;
+  height: 2.25rem;
 }
 
 #player-control-icon-primary {
   opacity: 1;
   height: 2rem;
+  padding: 0 0.125rem;
+}
+
+#player-control-icon-primary:hover {
+  height: 2.25rem;
+  padding: 0;
 }
 
 #player-bar {
@@ -400,7 +407,7 @@ body {
   cursor: pointer;
 }
 
-#song-details #song-name{
+#song-details #song-name {
   margin: 0;
   margin-bottom: 0.5rem;
 }
